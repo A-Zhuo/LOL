@@ -1,0 +1,44 @@
+body {
+	margin:0;
+	padding:0;
+	background:#f1f1f1;
+}
+#header{
+	width:900px;
+	height:180px;
+	margin:0 auto;
+	clear:both;
+}
+.img_head {
+	height:150px;
+	overflow:hidden;
+	margin:0 auto;
+	float:left;
+	position:relative;
+}
+#nav {
+	width:900px;
+	height:30px;
+	margin:0 auto;
+}
+#nav ul {
+	text-align:center;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+#nav ul li {
+	float:left;
+	width:225px;
+	height:30px;
+	background:url(../images/nav_bg.png) repeat-x;
+	cursor:pointer;
+}
+#nav ul li a {
+	padding:0;
+	margin:0;
+	line-height:30px;
+}
+#nav ul li:hover {
+	background:url(../images/nav_chos.png) repeat-x;
+}
