@@ -62,7 +62,7 @@ addLoadEvent(side1);
 addLoadEvent(side2);
 addLoadEvent(hero_tab);
 
-function addLoadEvent(func){  
+function addLoadEvent(function){  
     var oldonload = window.onload;  
     if(typeof window.onload != "function"){  
         window.onload = func;  
